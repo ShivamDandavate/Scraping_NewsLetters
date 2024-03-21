@@ -5,7 +5,9 @@ import pyodbc
 import time
 def main():
         try:
+                """this is main function"""
                 start=time.time()
+                
                 #input from json
                 with open('config.json') as config_file:
                     data = json.load(config_file)
